@@ -1,0 +1,105 @@
+
+body {
+      background: url(../images/pict2.jpg) no-repeat center center fixed;
+      background-size: cover;
+      font-family: Arial;
+
+
+}
+
+header {
+	background: #00795f;
+	width: 100%;
+	padding:20px;
+	text-align: center;
+	font-size: 32pt;
+	color: white;
+
+}
+
+
+ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	color: white;
+	text-align: center;
+
+
+}
+
+ul li{
+	float: left;
+	width: 200px;
+	height: 40px;
+	background-color: black;
+	opacity: 0.8; <! this makes the dropdwon menu transparent-->
+	line-height: 40px;
+	font-size: 18px;
+	line-height: 40px;
+	text-align: center;
+	border: 2px solid #285189;
+	position: relative;
+	padding: 5px 5px;
+
+}
+
+ul li a {
+	text-decoration: none;
+	color: white;
+	display: block;
+
+}
+
+ul li a:hover {
+	background-color: green;
+}
+
+
+
+ul li ul li{
+	display: none;
+	width: 200px;
+	text-align: center;
+
+}
+
+ul li:hover ul li{
+	display: block;
+
+}
+
+
+
+.prof-box{
+	width: 400px;
+	height: 500px;
+	background: rgba(0,0,0,0.4);
+	padding: 30px;
+	color: white;
+	margin: 0 auto;
+	margin-top: 60px;
+	text-align: center;
+
+}	
+
+.prof-pic{
+	 border-top-left-radius: 40% 40%;
+     border-top-right-radius: 40% 40%;
+    border-bottom-right-radius: 40% 40%;
+    border-bottom-left-radius: 40% 40%;
+}
+
+.socialicons{
+	font-size: 40px;
+}
+.socialicons a{
+	color: white;
+	padding: 8px;
+
+}
+.line-break {
+	width: 400px;
+	margin:0 auto;
+	border-top: 1px solid white
+}
